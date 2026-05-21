@@ -2,7 +2,7 @@
 
 **Project:** Cyclistic Bike-Share Case Study  
 **Author:** Nikhilvarma Kandula  
-**Context:** Google Data Analytics Capstone — real challenges encountered during the analysis
+**Context:** Real challenges encountered during the analysis
 
 This document records every significant technical challenge and how it was resolved — demonstrating problem-solving skills, adaptability, and professional judgement.
 
