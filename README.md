@@ -1,7 +1,5 @@
 # 🚴 Cyclistic Bike-Share Case Study
 
-**Google Data Analytics Professional Certificate — Capstone Project**
-
 [![View Tableau Dashboard](https://img.shields.io/badge/Tableau-Dashboard-blue?style=for-the-badge&logo=tableau)](YOUR_TABLEAU_PUBLIC_LINK_HERE)
 [![View SQL Code](https://img.shields.io/badge/SQL-BigQuery-orange?style=for-the-badge&logo=google-cloud)](./sql/)
 [![Read Full Report](https://img.shields.io/badge/Report-PDF-red?style=for-the-badge&logo=adobe)](./reports/cyclistic_report.pdf)
