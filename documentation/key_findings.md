@@ -22,7 +22,7 @@
 
 ---
 
-## 🎯 Finding 1 — Ride Duration: Casuals Ride 63% Longer
+##  Finding 1 — Ride Duration: Casuals Ride 63% Longer
 
 **SQL Reference:** `sql/03_analysis_queries.sql` — Analysis 1  
 **Visualization:** `visualizations/avg_ride_length.png`  
@@ -40,7 +40,7 @@
 | Electric Bike | 14.3 min | 10.9 min | 1.31× |
 | **Classic Bike** | **28.7 min** | **13.4 min** | **2.14×** ← strongest leisure signal |
 
-### 🔑 Insight
+###  Insight
 Casual riders on **classic bikes average 28.7 minutes** — nearly 30 minutes per ride. This is not a commute. It is leisurely sightseeing along Chicago's lakefront. The 2.14× classic-bike ratio is the **strongest single leisure indicator** in the entire 5.5M-row dataset.
 
 ### ↗ Links to Recommendation 3
@@ -48,7 +48,7 @@ Casual riders on **classic bikes average 28.7 minutes** — nearly 30 minutes pe
 
 ---
 
-## 🎯 Finding 2 — Weekly Patterns: Casuals Weekend, Members Weekday
+##  Finding 2 — Weekly Patterns: Casuals Weekend, Members Weekday
 
 **SQL Reference:** `sql/03_analysis_queries.sql` — Analysis 2  
 **Visualization:** `visualizations/rides_by_day.png`  
@@ -69,7 +69,7 @@ Casual riders on **classic bikes average 28.7 minutes** — nearly 30 minutes pe
 - Saturday casual rides (398K) are **78% higher** than the Monday casual low (224K)
 - Member Thursday peak (589K) is their most consistent commute day
 
-### 🔑 Insight
+###  Insight
 The weekly split reveals two fundamentally different user behaviours. Members are **infrastructure users** — bikes are how they get to work. Casual riders are **leisure consumers** — bikes are what they do on weekends.
 
 ### ↗ Links to Recommendation 1
@@ -77,7 +77,7 @@ The weekly split reveals two fundamentally different user behaviours. Members ar
 
 ---
 
-## 🎯 Finding 3 — Seasonal Trends: Casuals Are 4.5× More Seasonal
+##  Finding 3 — Seasonal Trends: Casuals Are 4.5× More Seasonal
 
 **SQL Reference:** `sql/03_analysis_queries.sql` — Analysis 3  
 **Visualization:** `visualizations/monthly_trends.png`  
@@ -107,7 +107,7 @@ The weekly split reveals two fundamentally different user behaviours. Members ar
 | **Seasonality ratio** | **4.5× more seasonal** | baseline |
 | May–Sep share of annual | **72% of all casual rides** | 59% of member |
 
-### 🔑 Insight
+###  Insight
 Casual ridership nearly **disappears in winter**. Members maintain year-round usage because bikes are their transport infrastructure. The **May–September window is the only realistic time to run conversion campaigns** — 72% of the target audience is only accessible in 5 months.
 
 ### ↗ Links to Recommendation 1
@@ -115,7 +115,7 @@ Casual ridership nearly **disappears in winter**. Members maintain year-round us
 
 ---
 
-## 🎯 Finding 4 — Station Geography: Casuals Cluster at Tourist Hotspots
+##  Finding 4 — Station Geography: Casuals Cluster at Tourist Hotspots
 
 **SQL Reference:** `sql/03_analysis_queries.sql` — Analysis 4 (Version B — stratified per group)  
 **Visualization:** `visualizations/station_map.png`  
@@ -142,7 +142,7 @@ Member stations are **distributed across commuter corridors city-wide** — not 
 ### Critical Query Design Note
 An initial top-40 overall query showed **only casual stations** (their tourist concentrations dominated). The fix: `UNION ALL` of two separate `TOP 20 PER GROUP` queries gives balanced representation on the Tableau map. Full explanation: `documentation/challenges_and_solutions.md` — Challenge 4.
 
-### 🔑 Insight
+###  Insight
 **Top 3 casual stations alone = 81,313 rides combined.** Every top casual station is a tourist attraction, lakefront park, or leisure destination. These 10 stations are the **highest-ROI locations for physical membership advertising**.
 
 ### ↗ Links to Recommendation 2
@@ -150,7 +150,7 @@ An initial top-40 overall query showed **only casual stations** (their tourist c
 
 ---
 
-## 🎯 Finding 5 — Bike Type: Classic Bike Duration Reveals Leisure
+##  Finding 5 — Bike Type: Classic Bike Duration Reveals Leisure
 
 **SQL Reference:** `sql/03_analysis_queries.sql` — Analysis 5 (window function for % of group)  
 **Visualization:** `visualizations/bike_type_usage.png`  
@@ -170,14 +170,14 @@ An initial top-40 overall query showed **only casual stations** (their tourist c
 | Avg ride duration | **28.7 min** | **13.4 min** | **2.14×** |
 | What it signals | Leisure sightseeing | Functional commute | — |
 
-### 🔑 Insight
+###  Insight
 The **electric vs classic split is nearly identical** between groups (66% vs 65%), so bike type *preference* alone does not distinguish casual from member. The signal is the **duration difference on classic bikes**: casual classic riders take 2.14× longer trips. A 30-minute casual classic bike ride is a lakefront exploration, not a commute.
 
 **SQL technique used:** Window function `SUM(COUNT(*)) OVER (PARTITION BY member_casual)` to calculate percentage-of-group without a subquery.
 
 ---
 
-## 🎁 Bonus Finding — Peak Hour Analysis (Ad Timing Intelligence)
+##  Bonus Finding — Peak Hour Analysis (Ad Timing Intelligence)
 
 **SQL Reference:** `sql/03_analysis_queries.sql` — Analysis 6  
 
@@ -186,7 +186,7 @@ The **electric vs classic split is nearly identical** between groups (66% vs 65%
 | **Member** | Peak 8–9 AM | Moderate | Peak 5–7 PM | Twin commute peaks |
 | **Casual** | Flat / no peak | **Peak 11 AM–6 PM** | Tapering | Single leisure arc |
 
-### 🔑 Insight
+###  Insight
 Members show a classic **commuter twin-peak** pattern (in + out). Casuals show a **single broad leisure block** centred on midday and afternoon. For in-app ads targeting casuals: **Friday 4–8 PM and Saturday 10 AM–2 PM** are the optimal delivery windows.
 
 ---
