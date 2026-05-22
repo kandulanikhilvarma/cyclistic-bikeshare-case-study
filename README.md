@@ -1,7 +1,7 @@
 # Cyclistic Bike-Share: Member vs. Casual Rider Analysis
 
 [![SQL](https://img.shields.io/badge/SQL-BigQuery-orange?style=flat-square&logo=google-cloud)](./sql/)
-[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue?style=flat-square&logo=tableau)](YOUR_TABLEAU_PUBLIC_LINK_HERE)
+[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue?style=flat-square&logo=tableau)](https://public.tableau.com/app/profile/nikhilvarma.kandula)
 [![Data](https://img.shields.io/badge/Rows-5.5M-green?style=flat-square)](./data/)
 [![Read Full Report](https://img.shields.io/badge/Report-PDF-red?style=flat-square&logo=adobe)](./reports/cyclistic_report.pdf)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](./LICENSE)
@@ -311,9 +311,9 @@ This case study demonstrates my ability to:
 - Communicate findings to non-technical stakeholders
 
 **Connect with me:**
-- 💼 [LinkedIn](YOUR_LINKEDIN_URL)
-- 📧 [Email](mailto:your.email@example.com)
-- 🌐 [Portfolio](YOUR_PORTFOLIO_WEBSITE)
+- 💼 [LinkedIn](https://www.linkedin.com/in/nikhilvarmakandula)
+- 📧 [Email](kandulanikhilvarma@gmail.com)
+- 🌐 [Portfolio](https://kandula.studio)
 
 ---
 
