@@ -3,6 +3,7 @@
 [![SQL](https://img.shields.io/badge/SQL-BigQuery-orange?style=flat-square&logo=google-cloud)](./sql/)
 [![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue?style=flat-square&logo=tableau)](YOUR_TABLEAU_PUBLIC_LINK_HERE)
 [![Data](https://img.shields.io/badge/Rows-5.5M-green?style=flat-square)](./data/)
+[![Read Full Report](https://img.shields.io/badge/Report-PDF-red?style=for-the-badge&logo=adobe)](./reports/cyclistic_report.pdf)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](./LICENSE)
 
   
@@ -303,11 +304,16 @@ cyclistic-bikeshare-case-study/
 
 ## About
 
-Completed as the capstone project for the **Google Data Analytics Professional Certificate.**
+This case study demonstrates my ability to:
+- Clean and analyze large datasets (5M+ rows)
+- Use industry-standard tools (SQL, BigQuery, Tableau)
+- Derive actionable business insights from data
+- Communicate findings to non-technical stakeholders
 
-**Nikhilvarma Kandula**  
-M.Sc. Big Data & Business Analytics · FOM University, Essen  
-[nikhilvarma@kandula.studio](mailto:nikhilvarma@kandula.studio) · [kandula.studio](https://kandula.studio) · [LinkedIn](YOUR_LINKEDIN_URL)
+**Connect with me:**
+- 💼 [LinkedIn](YOUR_LINKEDIN_URL)
+- 📧 [Email](mailto:your.email@example.com)
+- 🌐 [Portfolio](YOUR_PORTFOLIO_WEBSITE)
 
 ---
 
