@@ -5,7 +5,7 @@
 [![Data](https://img.shields.io/badge/Rows-5.5M-green?style=flat-square)](./data/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](./LICENSE)
 
-**Google Data Analytics Professional Certificate — Capstone Case Study**  
+  
 **Author:** Nikhilvarma Kandula · **Period:** May 2025 – April 2026 · **Tool:** Google BigQuery + Tableau Public
 
 ---
