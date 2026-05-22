@@ -3,7 +3,7 @@
 [![SQL](https://img.shields.io/badge/SQL-BigQuery-orange?style=flat-square&logo=google-cloud)](./sql/)
 [![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue?style=flat-square&logo=tableau)](YOUR_TABLEAU_PUBLIC_LINK_HERE)
 [![Data](https://img.shields.io/badge/Rows-5.5M-green?style=flat-square)](./data/)
-[![Read Full Report](https://img.shields.io/badge/Report-PDF-red?style=for-the-badge&logo=adobe)](./reports/cyclistic_report.pdf)
+[![Read Full Report](https://img.shields.io/badge/Report-PDF-red?style=flat-square&logo=adobe)](./reports/cyclistic_report.pdf)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](./LICENSE)
 
   
