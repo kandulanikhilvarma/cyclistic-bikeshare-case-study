@@ -196,7 +196,7 @@ Answers business question 3: casual riders respond to lifestyle messaging, not e
 
 ![Cyclistic Dashboard](./visualizations/tableau_dashboard.png)
 
-**[→ View Interactive Dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)**
+**[→ View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/nikhilvarma.kandula)**
 
 ---
 
@@ -312,7 +312,7 @@ This case study demonstrates my ability to:
 
 **Connect with me:**
 - 💼 [LinkedIn](https://www.linkedin.com/in/nikhilvarmakandula)
-- 📧 [Email](kandulanikhilvarma@gmail.com)
+- 📧 [Email](mailto:kandulanikhilvarma@gmail.com)
 - 🌐 [Portfolio](https://kandula.studio)
 
 ---
