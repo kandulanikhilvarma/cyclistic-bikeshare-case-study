@@ -1,12 +1,9 @@
 # 🔍 Key Findings — Cyclistic Bike-Share Analysis
 
-**Project:** Google Data Analytics Capstone — Case Study 1  
 **Author:** Nikhilvarma Kandula  
 **Data Period:** May 2025 – April 2026 (12 months)  
 **Dataset:** 5,535,455 cleaned rides · Divvy Bike-Share · Motivate International Inc.  
 **Tools:** Google BigQuery (SQL) · Tableau Public · GitHub  
-
-> **Business Question:** How do annual members and casual riders use Cyclistic bikes differently — and how can we convert casual riders into annual members?
 
 ---
 
